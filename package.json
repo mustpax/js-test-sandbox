@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "1.14.5",
+    "jshint": "2.9.2"
   },
   "scripts": {
+    "lint": "jshint *.js",
     "test": "jasmine-node --matchall test.js"
   }
 }
