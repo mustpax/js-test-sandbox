@@ -5,6 +5,6 @@
   },
   "scripts": {
     "lint": "jshint *.js",
-    "test": "jasmine-node --matchall test.js"
+    "test": "jasmine-node --junitreport --matchall test.js"
   }
 }
